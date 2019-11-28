@@ -12,7 +12,7 @@ import java.util.List;
 			 
 			if (hero1.getAge() <= hero2.getAge()) {
 				return 1;
-			} else if (hero1.getAge() >= hero2.getAge()) {
+			} else if (hero1.getAge() > hero2.getAge()) {
 				return -1;
 			} else {
 				return 0;
